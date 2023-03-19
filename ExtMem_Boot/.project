@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ExtMem_Boot</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUSW4STM32ConvertedProjectNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>BaseDir</name>
+			<value>file:/home/gaby/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.0/Projects/STM32F7508-DISCO/Templates/ExtMem_Boot</value>
+		</variable>
+		<variable>
+			<name>STM32Cube_FW_F7</name>
+			<value>file:/home/gaby/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.0</value>
+		</variable>
+	</variableList>
+</projectDescription>
