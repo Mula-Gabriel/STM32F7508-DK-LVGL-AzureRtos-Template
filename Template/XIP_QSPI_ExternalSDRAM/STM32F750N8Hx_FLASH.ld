@@ -173,6 +173,12 @@ SECTIONS
     . = ALIGN(8);
   } >RAM
   
+  .IRAM :
+  {
+    . = ALIGN(8);
+    *(.IRAM)
+  } >RAM
+  
 
   /* Remove information from the standard libraries */
   /DISCARD/ :

@@ -41,12 +41,12 @@ void LvglThread_entry_function(ULONG id)
     // lv_demo_benchmark();
     // lv_demo_music();
     // lv_demo_stress();
-    lv_demo_widgets();
+	lv_demo_widgets();
 
 	while(1)
 	{
-        lv_task_handler();
-        tx_thread_sleep(4);
+		uint32_t delay = lv_task_handler();
+        tx_thread_sleep(delay);
 	}
 
 }

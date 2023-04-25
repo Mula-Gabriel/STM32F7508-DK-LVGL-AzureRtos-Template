@@ -78,7 +78,7 @@
  *====================*/
 
 /*Default display refresh period. LVG will redraw changed areas with this period time*/
-#define LV_DISP_DEF_REFR_PERIOD     30      /*[ms]*/
+#define LV_DISP_DEF_REFR_PERIOD     10      /*[ms]*/
 
 /*Input device read period in milliseconds*/
 #define LV_INDEV_DEF_READ_PERIOD    30      /*[ms]*/
@@ -544,7 +544,7 @@ e.g. "stm32f769xx.h" or "stm32f429xx.h"*/
 # define LV_THEME_DEFAULT_GROW              1
 
 /*Default transition time in [ms]*/
-# define LV_THEME_DEFAULT_TRANSITON_TIME    80
+# define LV_THEME_DEFAULT_TRANSITON_TIME    10
 #endif /*LV_USE_THEME_DEFAULT*/
 
 /*A very simple theme that is a good starting point for a custom theme*/
